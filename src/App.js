@@ -1,5 +1,5 @@
 import { Nav } from './nav';
-import Main from './pages/Main';
+import Main from './pages';
 import NavProvider from './context/NavContext';
 
 function App() {

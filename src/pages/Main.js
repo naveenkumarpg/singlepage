@@ -1,5 +1,7 @@
 import React from 'react';
-import { Home, About, Contact } from './';
+import About from './About';
+import Contact from './Contact';
+import Home from './Home';
 
 const Main = () => (
   <main>

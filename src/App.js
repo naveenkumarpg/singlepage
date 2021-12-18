@@ -1,17 +1,14 @@
 import { Nav } from './nav';
-import { Main } from './pages';
+import Main from './pages/Main';
 import NavProvider from './context/NavContext';
-import './App.css';
 
 function App() {
-	return (
-		<div className='appContainer'>
-			<NavProvider>
-				<Nav />
-				<Main />
-			</NavProvider>
-		</div>
-	);
+  return (
+    <NavProvider>
+      <Nav />
+      <Main />
+    </NavProvider>
+  );
 }
 
 export default App;

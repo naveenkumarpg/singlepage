@@ -1,26 +1,25 @@
 import React from 'react';
 import { useNav } from '../customHooks/useNav';
-import './Page.css';
 
 const Home = () => {
-  // useNav takes in a navLinkId and returns a ref
-  // this ref is used to register the navLinkId that's
-  // currently in view, and apply activeClass styling
-  // to the corresponding nav childElement
-
   const homeRef = useNav('Home');
 
   return (
-    <section ref={homeRef} id="homeContainer">
-      <img
-        src="https://source.unsplash.com/random/600x600/?nature,water"
-        alt="unsplash-img"
-      />
-      <div>
-        <h3>HOME</h3>
-        <p>This is the home section</p>
+    <div class="component" ref={homeRef} id="homeContainer">
+      <div class="row">
+        <div class="col">
+          <img
+            src="https://dummyimage.com/800x500/d1cdd1/5e5c5e&text=Hero%20Billboard"
+            alt="FPO-img"
+            width="100%"
+          />
+        </div>
+        <div class="col">
+          <h3>Hero Section</h3>
+          <p>This is the Hero section</p>
+        </div>
       </div>
-    </section>
+    </div>
   );
 };
 

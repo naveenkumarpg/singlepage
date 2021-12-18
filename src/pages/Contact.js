@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div class="component" ref={contactRef} id="contactContainer">
       <div className="container">
-        <div class="row">
+        <div class="row align-items-center">
           <div class="col">
             <img
               src="https://dummyimage.com/800x500/d1cdd1/5e5c5e&text=Contact%20Us"

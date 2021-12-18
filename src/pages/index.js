@@ -1,13 +1,17 @@
 import React from 'react';
+import Hero from './hero';
+import Statistics from './statistics';
 import About from './About';
 import Contact from './Contact';
-import Home from './Home';
+import Footer from './footer';
 
 const Main = () => (
   <main>
-    <Home />
+    <Hero />
+    <Statistics />
     <About />
     <Contact />
+    <Footer />
   </main>
 );
 

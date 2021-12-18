@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div class="component" ref={aboutRef} id="aboutContainer">
       <div className="container">
-        <div class="row">
+        <div class="row align-items-center">
           <div class="col">
             <h3>About Us Section</h3>
             <p>This is the About section</p>

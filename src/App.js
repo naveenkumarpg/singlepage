@@ -1,4 +1,4 @@
-import { Nav } from './nav';
+import Nav from './nav';
 import Main from './pages';
 import NavProvider from './context/NavContext';
 

@@ -1,4 +1,4 @@
-nav {
+header {
   width: 100%;
   position: sticky;
   z-index: 10;
@@ -7,6 +7,7 @@ nav {
   color: white;
   background-color: var(--darkAccent);
   max-height: 4em;
+  height: 100px;
 }
 
 nav span {
@@ -14,7 +15,7 @@ nav span {
   border-bottom: 1px solid transparent;
   transition: border-bottom 0.2s ease;
   transition-delay: 0.25s;
-  margin: 1em;
+  margin: 0em 1em;
   padding-bottom: 0.3em;
 }
 
